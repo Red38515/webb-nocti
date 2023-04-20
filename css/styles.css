@@ -1,0 +1,100 @@
+/* css body reset */
+html, body, header, nav, main, footer, h1, h2, ul, li, a, #index, #neptune, #nebula, #cartgal, #cliffs, #news {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: black;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3em;
+	padding: 5%;
+	background-image: url("../images/header.png");
+	background-size: cover;
+	color: white;
+}
+nav {
+	background-color: black;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+nav ul {
+	text-align: center;
+	font-size: 1.5em;
+}
+nav li {
+	display: inline-block;
+	padding: .5% 2%;
+}
+nav li a {
+	text-decoration: none;
+	color: white;
+}
+nav li a:hover {
+	display: block;
+	background-color: gold;
+}
+
+main {
+	padding: 2% 8%;
+	background-color: black;
+	color: white;
+}
+main h2 {
+	padding: 0% 2%;
+}
+main p {
+	padding: 0% 1%;
+	font-size: 1.2em;
+}
+main ul {
+	list-style-type: none;
+}
+main li {
+	padding: 0.5% 3%;
+	font-size: 1.1em;
+}
+main img {
+	max-width: 100%;
+}
+
+#index {
+	background-color: gold;
+	padding: 2%;
+}
+#neptune {
+	background-color: gold;
+	padding: 2%;
+}
+#nebula {
+	background-color: gold;
+	padding: 2%;
+}
+#cartgal {
+	background-color: gold;
+	padding: 2%;
+}
+#cliffs {
+	background-color: gold;
+	padding: 2%;
+}
+#news {
+	background-color: gold;
+	padding: 2%;
+}
+
+
+footer {
+	background-color: black;
+	padding-bottom: 2%;
+}
+footer p {
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
